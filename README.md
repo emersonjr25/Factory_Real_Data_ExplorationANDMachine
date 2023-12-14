@@ -1,23 +1,7 @@
 # Exploratory Data Analysis and Machine Learning with Jupyter Notebook
-
-Welcome to this Jupyter Notebook, where we will explore and analyze data using Python and leverage machine learning techniques to gain insights and make predictions. The database is the Fabric Conditioner Factory from "Globins Care Co."
-
 ## Getting Started
 
 Before we dive into the analysis, let's set up our environment by importing some essential libraries. These libraries will help us manipulate data, visualize patterns, and build machine learning models efficiently.
-
-## Metadata
-- **site**: Name of the site.
-- **division** and **category**: Internal product classification in *Globins Care Co.*
-- **line**: Production line where the data was collected.
-- **model_name**: Machine Learning model applied in the data extraction.
-- **recipe_group**: Recipe group of the analyzed product.
-- **uniqueid**: Identification number of the batch.
-- **product_code**: Identification number of the product.
-- **model_complete**: Integrity of the batch data: `COMPLETE` means that the batch was fully analyzed by SMi Data Engineering tool. `INCOMPLETE` means that the model has failed, or the batch contains atypical characteristics.
-- **char_name**: String containing the description of the characteristic measured, such as phase number, phase name, and metric evaluated.
-- **char_time**: Timestamp of the measurement.
-- **char_value**: Value measured by SMi Data Engineering tool.
 
 ## 1 - Reading, Cleaning, Organizing, and Exploring Data
 
